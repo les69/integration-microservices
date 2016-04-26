@@ -126,7 +126,7 @@ class NestIntegration(object):
 
         """
         self.check_login()
-        res = filter(lambda device: device.name == deviceID, self.nest.devices)
+        res = filter(lambda device: device.name == deviceID, self.list_devices())
         return next(iter(res), None)
 
     def get_property(self,deviceID, proprety_name):
