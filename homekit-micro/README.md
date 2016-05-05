@@ -1,2 +1,2 @@
-# nest-micro
-Microservice for accessing Nest devices
+# homekit-micro
+Microservice for accessing HomeKit devices
